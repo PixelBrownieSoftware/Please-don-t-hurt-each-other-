@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e49afc988377341866d47ac81103af, type: 3}
+  m_Name: Intermediate
+  m_EditorClassIdentifier: 
+  potAllies:
+  - {fileID: 11400000, guid: 95d652e408ef5664db93ad2f8b5b2e20, type: 2}
+  - {fileID: 11400000, guid: 0d6195c7771198847afd2a3e025f02d0, type: 2}
+  potEnemies:
+  - {fileID: 11400000, guid: 6ec8c5b047b03614a903c0836b2f2c37, type: 2}
+  min_allies: 2
+  max_allies: 3
+  min_foes: 2
+  max_foes: 4
+  min_turns: 7
+  max_turns: 9
+  difficultyShiftTurns: 5

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47017b1a50a73f4899bd55a43d0d73e, type: 3}
+  m_Name: Test group
+  m_EditorClassIdentifier: 
+  allies:
+  - charDat: {fileID: 11400000, guid: 95d652e408ef5664db93ad2f8b5b2e20, type: 2}
+    conditions:
+    - condName: RunAway
+      condTrue: 0
+    - condName: SpeedSufficient
+      condTrue: 0
+  opponents:
+  - charDat: {fileID: 11400000, guid: 6ec8c5b047b03614a903c0836b2f2c37, type: 2}
+    conditions:
+    - condName: IsTired
+      condTrue: 0
+  - charDat: {fileID: 11400000, guid: 6ec8c5b047b03614a903c0836b2f2c37, type: 2}
+    conditions:
+    - condName: IsTired
+      condTrue: 0
+  winCond:
+  - condName: RunAway
+    condTrue: 1
+  looseCond:
+  - condName: KillFoes
+    condTrue: 1

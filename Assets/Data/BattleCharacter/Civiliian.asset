@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1329112c83a76b44959945a224ff97d, type: 3}
+  m_Name: Civiliian
+  m_EditorClassIdentifier: 
+  characterType: 0
+  turnIcons: 1
+  health: 40
+  moveRangeDefault: 0
+  actions:
+  - conditions:
+    - condName: Energy
+      condTrue: 0
+      condNum: 6
+      setTarget: 0
+      targName: 
+      conditionType: 2
+    move: {fileID: 11400000, guid: cccb4b084714f1b418c50cd033b50ef9, type: 2}
+  variable:
+  - name: Energy
+    maxVal: 10
+    minVal: 0
+    val: 0
+  moves:
+  - {fileID: 11400000, guid: c31e426b88043e1468b7a80fce564d47, type: 2}
+  - {fileID: 11400000, guid: 565fe1a2b4a363a4d99989ad8f2dd932, type: 2}
+  aiFlags:
+  - SpeedSufficient
+  - RunAway
+  animation: {fileID: 9100000, guid: 09a27002541ee5f40a0ed07c68ecc526, type: 2}

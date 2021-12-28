@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1329112c83a76b44959945a224ff97d, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  characterType: 0
+  turnIcons: 1
+  health: 80
+  moveRangeDefault: 0
+  actions:
+  - conditions:
+    - condName: Energy
+      condTrue: 0
+      condNum: 3
+      setTarget: 0
+      targName: 
+      conditionType: 2
+    move: {fileID: 11400000, guid: 8b4b5800fd261344cb72af95705e35e3, type: 2}
+  - conditions:
+    - condName: Energy
+      condTrue: 0
+      condNum: 4
+      setTarget: 0
+      targName: 
+      conditionType: 4
+    move: {fileID: 11400000, guid: dbaf2de497875db4e9297f37aeafd830, type: 2}
+  variable:
+  - name: Energy
+    maxVal: 15
+    minVal: 0
+    val: 15
+  moves: []
+  aiFlags: []
+  animation: {fileID: 9100000, guid: bff216ffa1021b742b3f7728643446bf, type: 2}

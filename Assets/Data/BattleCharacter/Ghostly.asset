@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1329112c83a76b44959945a224ff97d, type: 3}
+  m_Name: Ghostly
+  m_EditorClassIdentifier: 
+  characterType: 0
+  turnIcons: 3
+  health: 1
+  moveRangeDefault: 0
+  actions: []
+  variable:
+  - name: Magic
+    maxVal: 20
+    minVal: 0
+    val: 0
+  moves:
+  - {fileID: 11400000, guid: 6d3e3e6ce48d9ba44aee8721bc46e3e9, type: 2}
+  - {fileID: 11400000, guid: 3899711274e786c47ae118ed88434307, type: 2}
+  - {fileID: 11400000, guid: e32160eda7229eb46b5d84c70fde739a, type: 2}
+  - {fileID: 11400000, guid: e9310758a8c4b1d4790f8b23c1516e42, type: 2}
+  - {fileID: 11400000, guid: e13951f10374a234294e985ef263d8d3, type: 2}
+  - {fileID: 11400000, guid: e909da363bbdc86488859d930e946f7f, type: 2}
+  aiFlags: []
+  sprite: {fileID: 0}
